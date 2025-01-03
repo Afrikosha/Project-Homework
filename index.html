@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It-incubator precourse</title>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <span>IT-INCUBATOR</span>
+    </header>
+    <section data-cy="hw1-section-main-pre">
+        <h1>Tetyana Fetisova</h1>
+        <p>I live in Albania. I want to study programing for my work.</p>
+        <img src="https://www.shutterstock.com/image-illustration/casino-background-luxury-roulette-wheel-260nw-1409647724.jpg" alt="Roulette Wheel">
+    </section>
+    <section data-cy="hw1-section-about-pre">
+        <select name="City" id="City">
+            <option value="Tirana">Tirana</option>
+            <option value="Vlore" selected>Vlore</option>
+            <option value="Korcha">Korcha</option>
+        </select>
+        <div data-cy="hw1-unordered-list-box-pre">
+            <h2>Любимые книги</h2>
+            <ul>
+                <li>48 законов власти</li>
+                <li>Casino operation management</li>
+                <li>Мастер и Маргарита</li>
+            </ul>
+        </div>
+        <div data-cy="hw1-ordered-list-box-pre">
+            <ol>
+                <li>48 законов власти</li>
+                <li>Casino operation management</li>
+                <li>Мастер и Маргарита</li>
+            </ol>
+        </div>
+        <div data-cy="hw1-skills-box-pre">
+            <h2>Мои скилы</h2>
+            <label for="HTML">
+                <input id="HTML" type="checkbox" name="HTML" checked>
+                HTML
+            </label>
+            <label for="CSS">
+                <input id="CSS" type="checkbox" name="CSS">
+                CSS
+            </label>
+            <label for="JavaScript">
+                <input id="JavaScript" type="checkbox" name="JS">
+                JavaScript
+            </label>
+        </div>
+        <form action="">
+            <input type="text" placeholder="Новый скил">
+            <button>Добавить</button>
+        </form>
+        <hr>
+        <table style="width:40%" data-cy="hw-about-table-pre">
+            <thead>
+                <tr>
+                    <th scope="col">Заголовок</th>
+                    <th scope="col"><input type="text"></th>
+                    <th scope="col"><input type="text"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><input type="text"></th>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th scope="row"><input type="text"></th>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                </tr>
+                <tr>
+                    <th scope="row"><input type="text"></th>
+                    <th><input type="text"></th>
+                    <th><input type="text"></th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <th colspan="2"><input type="text"></th>
+                <td><input type="text"></td>
+            </tfoot>
+        </table>
+    </section>
+    <footer data-cy="hw-footer-pre">
+        <a href="https://it-incubator.io/">IT-Incubator</a>
+    </footer>
+</body>
+</html>
